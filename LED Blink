@@ -1,1 +1,21 @@
-print.f
+// Variable
+// HIGH = ON
+// LOW = OFF
+// delay = timer
+
+int RED = 5; //declare pin LED
+// basic functions
+
+void setup()
+  
+{
+pinMode(RED, OUTPUT); 
+}
+
+void loop()
+{
+digitalWrite(RED, HIGH); 
+  delay(500); //5 millisecond
+digitalWrite(RED, LOW);
+  delay (500);
+}
