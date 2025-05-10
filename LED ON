@@ -1,1 +1,19 @@
+// tinkercad : https://www.tinkercad.com/things/fG5pFTvWgaP-led-on
+// Variable
+// HIGH = ON
+// LOW = OFF
 
+int RED = 2; //declare pin LED
+// basic functions
+
+void setup()
+  
+{
+pinMode(RED, OUTPUT); 
+}
+
+void loop()
+{
+digitalWrite(RED, HIGH); 
+
+}
