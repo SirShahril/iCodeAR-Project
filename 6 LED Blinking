@@ -1,0 +1,53 @@
+// TINKERCAD : https://www.tinkercad.com/things/bzmmW28VuKD-6-led-blinking
+// Variable
+// HIGH = ON
+// LOW = OFF
+// delay = timer
+
+int GREEN = 2;
+int YELLOW = 3;
+int ORANGE = 4;
+int BLUE = 5;
+int RED = 6;
+int WHITE = 7;
+//declare pin LED
+// basic functions
+
+void setup()
+  
+{
+pinMode(GREEN, OUTPUT);
+pinMode(YELLOW, OUTPUT);
+pinMode(ORANGE, OUTPUT);
+pinMode(BLUE, OUTPUT);
+pinMode(RED, OUTPUT);
+pinMode(WHITE, OUTPUT);
+}
+
+void loop()
+{
+digitalWrite(GREEN, HIGH); 
+  delay(100); //5 millisecond
+digitalWrite(GREEN, LOW);
+  delay (100);
+digitalWrite(YELLOW, HIGH); 
+  delay(100); //5 millisecond
+digitalWrite(YELLOW, LOW);
+  delay (100);
+digitalWrite(ORANGE, HIGH); 
+  delay(100); //5 millisecond
+digitalWrite(ORANGE, LOW);
+  delay (100);
+digitalWrite(BLUE, HIGH); 
+  delay(100); //5 millisecond
+digitalWrite(BLUE, LOW);
+  delay (100);
+digitalWrite(RED, HIGH); 
+  delay(100); //5 millisecond
+digitalWrite(RED, LOW);
+  delay (100);
+digitalWrite(WHITE, HIGH); 
+  delay(100); //5 millisecond
+digitalWrite(WHITE, LOW);
+  delay (100);
+}
